@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <title>Weduc</title>
+        <link rel="Stylesheet" href="global.css" type="text/css" />	  
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta name="keywords" content="Educação, Internet, Online, Weduc, Aprendizado, Ambiente Web de Aprendizado">      
+        <meta name="description" content="Weduc é um ambiente de aprendizado online usado por instituições de ensino desde o ensino fundamental até o ensino superior servindo para disponibilizar conteúdo para alunos e professores.">
+        <meta name="author" content="Jonathan André Schweder">  
+    </head>
+    <body id="fundoHome">
+        <div class="Container">
+            <div class="aviso">                
+                <img src="img/logo32.png">
+                <b>Weduc :</b> Seja bem-vindo "usuário"                    ao <i>Weduc</i>, hoje é dia 3 de março de 2014
+                
+            </div>
+            <div class="menu">
+                <nav>
+                    <a href="home.html">Home</a>
+                    <a href="#">Professores</a>
+                    <a href="#">Alunos</a>
+                    <a href="#">Disciplinas</a>
+                    <a href="#">Exercícios</a>
+                    <a href="#">Trabalhos</a>
+                    <a href="#">Arquivos</a>
+                    <a href="#">Notas</a>
+                    <a href="#">Presença</a>        
+                </nav>                       
+            </div>
+            <div class="conteudo">
+                Novas mensagens, Estatisticas do usuário(aluno, professor)
+                <br>
+                
+                <table>
+                    <!--Cabeçalho-->
+                    <thead>
+                        <tr>
+                            <th>Disciplina</th>
+                            <th>Nota</th>
+                        </tr>
+                    </thead>
+                    <!--Rodapé-->
+                    <tfoot>
+                        <tr>
+                            <td class="texto">Média</td>
+                            <td class="numero">7</td>
+                        </tr>
+                    </tfoot>
+                    <!--Dados-->
+                    <tbody>
+                        <tr>
+                            <td class="texto">Teoria dos Grafos</td>
+                            <td class="numero">5</td>
+                        </tr>
+                        <tr>
+                            <td class="texto">Teoria da Computação</td>
+                            <td class="numero">9</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <br />
+                
+            <form action="cadusuario.php">
+                <fieldset class="borda">
+                    <legend>Informações Pessoais:</legend>
+                    <label for="nome" >Nome : </label>
+                    <input type="text" size="30" name="name">
+                    <label for="sobrenome" >Sobrenome : </label>
+                    <input type="text" size="30" name="sobrenome">
+                    <label for="dataNascimento" >Data de Nascimento : </label>
+                    <input type="text" size="10" name="dataNascimento">      
+                </fieldset>                 
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </form>
+                         
+            </div>           
+            <div class="rodape">
+               Weduc &copy copyright 2014 - Siseduc                                  
+            </div>           
+        </div>
+    </body>    
+</html>

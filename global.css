@@ -1,0 +1,214 @@
+*{
+    font-family: sans-serif;    
+    font-size: 1.05em;
+    color: black;
+    line-height: 150%;
+}
+#imgFundo{           
+    background-image: url("img/fundo.jpg");
+    background-size: cover;    
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+div.Login{
+    background-color: rgba(255,255,255,0.7);
+    border-style: none;    
+    position:relative;    
+    left:50%;
+    width:500;
+    height:450px;
+    margin-left:-250px;
+    text-align:center;    
+}
+
+div.Container{
+    float: left;    
+    width: 100%;
+    height: 100%;            
+    padding: 0;
+}
+
+div.Aviso{
+    background-color: rgba(255,255,255,0.7);    
+    text-align: center;
+    font-size: 0.7em;    
+    width:98%;
+    height:5%;        
+    float: left;    
+    border-width: 1px;    
+    padding: 1%;
+    border-style: dashed;
+    border-width: 1px;
+}
+
+div.Menu{
+    background-color: rgba(255,255,255,0.7);    
+    text-align:center;
+    font-size: 0.9em;    
+    width:98%;
+    height:5%;        
+    float: left;        
+    padding: 1%;
+}
+
+div.Conteudo{
+    background-color: rgba(255,255,255,0.7);    
+    font-size: 0.8em;    
+    width:98%;    
+    float: left;    
+    border-width: 1px;
+    padding: 1%;
+}
+
+div.Rodape{  
+    text-align:center;
+    font-size: 0.5em;    
+    width:100%;            
+    float: left;        
+}
+
+#fundoHome{
+    background-color: #FF6600;
+}
+
+br{
+    clear: left;
+}
+
+h1.tituloLogin{    
+    color: #FF6600;    
+    text-align: center;
+    text-decoration: none;
+    font-size: 5em;    
+}
+
+form.Login{
+    margin:auto;    
+    width: 250px;    
+}
+
+a{    
+    padding: 5px;
+    font-size : .8em;
+    color: #E65C00;
+    text-decoration: none;
+}
+
+
+input {    
+    display: block;
+    text-align: left;
+    color: #000000;
+    font-size: 0.9em;
+}
+
+input[type="submit"]{
+    border: solid #E65C00 1px;
+    padding: 5px 10px 5px 10px;
+    background: #E65C00;    
+    color: white; 
+    font-weight: bold;
+    display: inline;
+    text-align: center; 
+}
+
+input[type="submit"]:active{    
+    border: outside 1px black;
+    background: white;    
+    color: black;
+}
+
+input[type="reset"]{
+    border: solid #E65C00 1px;
+    padding: 5px 10px 5px 10px;
+    background: #E65C00;    
+    color: white; 
+    font-weight: bold;
+}
+
+input[type="reset"]:active{    
+    border: outside 1px black;
+    background: white;    
+    color: black;
+}
+
+input[type="reset"] {    
+    display: inline;
+    text-align: center;        
+}
+
+a:hover{
+    color: black;
+}
+
+
+tr:hover td{
+    background-color: #FADECC;
+}
+
+table {
+    border: solid #E65C00 1px;
+    border-collapse: collapse;
+}
+
+table th{
+    color : #000000;
+    padding: 5px;
+    border-bottom : 1px dashed #E65C00;
+    font-size: 0.9em;
+    font-weight: bold;
+    background-color: #F2A775;
+}
+
+table td {
+    border-bottom : 1px dashed #E65C00;
+    font-size: 0.9em;
+}
+
+table td.numero {    
+    padding-right: 5px;
+    border-bottom : 1px dashed #E65C00;
+    font-size: 0.9em;
+    text-align: right;
+}
+
+table td.texto {
+    padding-left: 5px;
+    border-bottom : 1px dashed #E65C00;
+    font-size: 0.9em;
+    text-align: left;
+}
+
+table tfoot{
+    font-weight: bold;
+    background-color: #F2A775;
+}
+
+label {
+    display: block;
+    text-align: left;
+    color: #000000;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+legend{
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #000000;    
+}
+
+
+fieldset{
+    border-style: dashed;    
+    border-width: 1px;
+    border-color: #E65C00;
+    margin : 10px;
+}
+
+
+fieldset.semBorda{
+    border-style: none;    
+    border-width: 0px;
+}
